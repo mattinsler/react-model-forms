@@ -29,7 +29,7 @@
     "babel-preset-stage-0": "6.16.0",
     "hoist-non-react-statics": "1.2.0",
     "html-webpack-plugin": "2.26.0",
-    "model-lang": "0.0.2",
+    "model-lang": "0.0.3",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "webpack": "2.2.0-rc.4",

@@ -32,6 +32,7 @@ export function formField() {
         const { field, ...props } = this.props;
 
         props.errors = (form.errors || []).filter(e => e.property === field);
+        props.isValid = props.errors.length === 0;
         props.value = form.value[field];
         props.onChange = (value) => form.setValue(field, value);
 
